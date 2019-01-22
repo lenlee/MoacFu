@@ -1,15 +1,11 @@
 <view class='swiper_con'>
       <view class="section">
-          <view class="label">当前密码：</view>
-          <input name="input" placeholder="输入当前密码" placeholder-class="placeholder" />
-      </view>
-      <view class="section">
           <view class="label">福包密码：</view>
-          <input name="input" placeholder="输入福包密码" placeholder-class="placeholder" />
+          <input name="input" placeholder="输入福包密码" placeholder-class="placeholder" type="number" maxlength="6" password bindinput="bindpwd" value="{{pwd}}" />
       </view>
       <view class="section">
           <view class="label">确认密码：</view>
-          <input name="input" placeholder="再次输入密码" placeholder-class="placeholder" />
+          <input name="input" placeholder="再次输入密码" placeholder-class="placeholder" type="number" maxlength="6" password bindinput="bindpwdtwo" value="{{pwdtwo}}" />
       </view>
-      <button class="weui-btn" type="warn">确定</button>
+      <button class="weui-btn" type="warn" catchtap="savepwd">确定</button>
 </view>

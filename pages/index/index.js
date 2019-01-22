@@ -1,6 +1,9 @@
 //index.js
+import * as utils from '../../utils/util.js';
+
 //获取应用实例
-const app = getApp()
+const app = getApp();
+      app.utils = utils;
 
 Page({
   

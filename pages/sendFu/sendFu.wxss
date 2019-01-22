@@ -1,8 +1,5 @@
-page{ background: #f5f5f5;}
 button{ margin: 0;}
-text{ font-size: 30rpx; color: #000;}
 input{ line-height: normal;}
-.placeholder{ font-size: 30rpx;}
 .tab{float: left; width: 50%;text-align: center;padding: 25rpx 0; color: #BFBFBF; }
 .topTabSwiper{border-top: 1px solid #f5f5f5; background: #ffffff; zoom: 1;}
 .topTabSwiper:after{content: ""; clear: both;display: block;}

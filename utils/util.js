@@ -14,6 +14,18 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
-module.exports = {
-  formatTime: formatTime
+//提示消息框
+function showToast(title, timer) {
+    wx.showToast({
+        title: title || '请添加提示',
+        icon: 'none',
+        duration: timer || 2000
+    })
 }
+
+
+module.exports = {
+    formatTime: formatTime,
+    showToast: showToast
+}
+

@@ -1,5 +1,4 @@
 page{
-    background: #f5f5f5;
     padding-top: 20rpx;
 }
 .section{
@@ -24,9 +23,6 @@ section::after{
     padding-left: 15rpx;
     font-size: 30rpx;
 }
-.placeholder{
-    font-size: 30rpx;
-}
 .weui-btn{
-    margin-top: 80rpx;
+    margin: 80rpx 20rpx 0;
 }

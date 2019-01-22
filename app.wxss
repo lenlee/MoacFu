@@ -6,24 +6,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
   box-sizing: border-box;
-} 
-
-
-text {
-  font-size:13px;
-  color: #707070
-  
 }
-
-button {
-  margin: 10px;
+page{
+    background: #f5f5f5;
 }
-
+text{
+    font-size: 30rpx;
+    color: #000;
+}
 .placeholder {
-       /* placeholder颜色  */
-       color: #aab2bd;
-       /* placeholder字体大小  */
-       font-size: 12px;
-    }
+   color: #aab2bd;
+   font-size: 30rpx;
+}

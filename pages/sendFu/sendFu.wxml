@@ -15,7 +15,7 @@
               </view>
             </view>
             <view class="weui-cell__bd">
-              <input class="weui-input" name="input" placeholder="输入金额" placeholder-class="placeholder" />
+              <input class="weui-input" name="input" type="digit" placeholder="输入金额" placeholder-class="placeholder" bindinput="bindSpeMoney" value="{{specialMoney}}" />
             </view>
           </view>
 
@@ -26,15 +26,15 @@
               </view>
             </view>
             <view class="weui-cell__bd">
-              <input class="weui-input" name="input" placeholder="输入数量" placeholder-class="placeholder" />
+              <input class="weui-input" name="input" type="number" placeholder="输入数量" placeholder-class="placeholder" bindinput="bindSpeNumber" value="{{specialNumber}}" />
             </view>
           </view>
         </view>
 
 
-        <input class="weui-input weui-input-words" name="input" placeholder="恭喜发财" placeholder-class="placeholder" />
+        <input class="weui-input weui-input-words" name="input" type="text" maxlength="20" placeholder="恭喜发财" placeholder-class="placeholder" bindinput="bindSpaText" value="{{specialText}}" />
 
-        <button class="weui-btn" type="warn">发送</button>
+        <button class="weui-btn" type="warn" catchtap="sendspecial">发送</button>
       </view>
     </view>
   </swiper-item>
@@ -50,7 +50,7 @@
               </view>
             </view>
             <view class="weui-cell__bd">
-              <input class="weui-input" name="input" placeholder="输入金额" placeholder-class="placeholder" />
+              <input class="weui-input" name="input" type="digit" placeholder="输入金额" placeholder-class="placeholder" bindinput="bindNorMoney" value="{{normalMoney}}" />
             </view>
           </view>
         </view>
@@ -63,15 +63,15 @@
               </view>
             </view>
             <view class="weui-cell__bd">
-              <input class="weui-input" name="input" placeholder="输入数量" placeholder-class="placeholder" />
+              <input class="weui-input" name="input" type="number" placeholder="输入数量" placeholder-class="placeholder" bindinput="bindNorNumber" value="{{normalNumber}}" />
             </view>
           </view>
         </view>
 
 
-        <input class="weui-input weui-input-words" name="input" placeholder="恭喜发财" placeholder-class="placeholder" />
+        <input class="weui-input weui-input-words" name="input" type="text" maxlength="20" placeholder="恭喜发财" placeholder-class="placeholder" bindinput="bindNorText" value="{{normalText}}" />
 
-        <button class="weui-btn" type="warn">发送</button>
+        <button class="weui-btn" type="warn" catchtap="sendnormal">发送</button>
       </view>
     </view>
   </swiper-item>

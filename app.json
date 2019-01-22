@@ -10,9 +10,9 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#e64340",
     "navigationBarTitleText": "MOAC福包",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"#ffffff"
   },
   "tabBar": {
     "color": "#bfbfbf",

@@ -1,13 +1,6 @@
-text{
-  color: #000000;
-  font-size: 30rpx;
-}
-.container{
-  padding-top: 30rpx;
-}
 .header{
   width: 100%;
-  background: #ff525c;
+  background: #d62f1f;
   justify-content:center;
   padding: 50rpx 0;
 }

@@ -1,4 +1,8 @@
 <view class='swiper_con'>
       <view class="address_title">福包地址：</view>
       <view class="address_detail">福包地址福包地址福包地址福包地址</view>
+      <view class="export_pwd" catchtap="exportpwd">
+            <view class="right">></view>
+            <text class="export_text">导出私钥</text>
+      </view>
 </view>
