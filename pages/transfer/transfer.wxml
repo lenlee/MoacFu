@@ -1,0 +1,17 @@
+<view class='swiper_con'>
+      <view class="section">
+          <view class="label">接收方：</view>
+          <input name="input" placeholder="输入地址" />
+      </view>
+    <view class="section">
+          <view class="label">金额：</view>
+          <input name="input" placeholder="输入金额" />
+    </view>
+    <view class="section">
+          <view class="label">福包密码：</view>
+          <input name="input" placeholder="输入密码" />
+    </view>
+        <button class="weui-btn" type="warn">发送</button>
+
+    
+</view>

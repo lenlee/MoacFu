@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/account/account",
+    "pages/address/address",
+    "pages/fuList/fuList",
+    "pages/modifyPwd/modifyPwd",
+    "pages/sendFu/sendFu",
+    "pages/transfer/transfer"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MOAC福包",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/home32.png",
+        "selectedIconPath": "img/homeSelected32.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账户",
+        "iconPath": "img/account32.png",
+        "selectedIconPath": "img/accountSelected32.png"
+      }
+    ]
+  }
+
+}

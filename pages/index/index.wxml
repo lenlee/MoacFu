@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header" style="display: flex;">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> -->
+    <!-- <image src = ""></image> -->
+    <view></view>
+    <view>
+      <navigator url="../sendFu/sendFu">
+        <image src="../../img/hong32.png" style="width: 30px; height: 30px"></image>
+        <text class="homeText" decode="{{true}}">发福包 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+      </navigator>
+    </view>
+
+    <view>
+      <navigator url="../transfer/transfer">
+        <image src="../../img/transfer32.png" style="width: 30px; height: 30px"></image>
+        <text class="homeText" decode="{{true}}">提取 </text>
+      </navigator>
+    </view>
+
+  </view>
+
+</view>

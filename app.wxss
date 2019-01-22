@@ -1,0 +1,29 @@
+/**app.wxss**/
+@import 'weui.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+
+text {
+  font-size:13px;
+  color: #707070
+  
+}
+
+button {
+  margin: 10px;
+}
+
+.placeholder {
+       /* placeholder颜色  */
+       color: #aab2bd;
+       /* placeholder字体大小  */
+       font-size: 12px;
+    }

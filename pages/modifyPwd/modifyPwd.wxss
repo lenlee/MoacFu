@@ -1,0 +1,32 @@
+page{
+    background: #f5f5f5;
+    padding-top: 20rpx;
+}
+.section{
+    background: #ffffff;
+    height: 50rpx;
+    padding: 25rpx 30rpx;
+    border-bottom: 1px solid #EFEFEF;
+}
+section::after{
+    float: none;
+    clear: both;
+}
+.label{
+    width: 200rpx;
+    float: left;
+    text-align: left;
+    font-size: 30rpx;
+}
+.section input{
+    float: left;
+    height: 50rpx;
+    padding-left: 15rpx;
+    font-size: 30rpx;
+}
+.placeholder{
+    font-size: 30rpx;
+}
+.weui-btn{
+    margin-top: 80rpx;
+}

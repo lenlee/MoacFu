@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+
+
+<view class="header" style="display: flex;">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+    <view style="flex-direction:column; margin-bottom:15px">
+      <view>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      </view>
+
+      <view>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </view>
+      </view>
+    </block>
+</view>
+
+<view class="bottom_wrapper">
+    <view class="bottom">
+        <view class="bottom_two">
+            <navigator url="../address/address" class="bottom_item bottom_item_line">
+                <image src = "../../img/address32.png" style="width: 24px; height: 24px"></image>
+                <text decode="{{true}}">福包地址</text>
+            </navigator>
+
+            <navigator url="../modifyPwd/modifyPwd" class="bottom_item">
+                <image src = "../../img/pwd32.png" style="width: 24px; height: 24px"></image> <text decode="{{true}}">福包密码 </text>
+            </navigator>
+        </view>
+        <view class="bottom_two bottom_one">
+            <navigator url="../fuList/fuList" class="bottom_item">
+                <image src = "../../img/list32.png" style="width: 24px; height: 24px"></image> <text decode="{{true}}">福包记录 </text>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+
+</view>

@@ -1,0 +1,63 @@
+text{
+  color: #000000;
+  font-size: 30rpx;
+}
+.container{
+  padding-top: 30rpx;
+}
+.header{
+  width: 100%;
+  background: #ff525c;
+  justify-content:center;
+  padding: 50rpx 0;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #ffffff;
+  display:block;
+  text-align:center;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.bottom_wrapper{
+  width: 100%;
+  margin-top: -30rpx;
+}
+.bottom{
+  margin: 0 20rpx;
+}
+.bottom_two{
+  background: #ffffff;
+  border-radius: 5rpx;
+  box-shadow: 0rpx 0rpx 8rpx #e4e4e4;
+}
+.bottom_item{
+  padding: 25rpx 0;
+  margin: 0 20rpx;
+  background: #ffffff;
+}
+.bottom_item_line{
+  border-bottom: 1px solid #EFEFEF;
+}
+.bottom_one{
+  margin-top: 30rpx;
+}
+.bottom_item image{
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+

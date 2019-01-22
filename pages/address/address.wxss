@@ -1,0 +1,14 @@
+.swiper_con{
+    padding-top: 50rpx;
+}
+.address_title{
+    font-size: 30rpx;
+    color: #b1b1b1;
+    text-align: center;
+}
+.address_detail{
+    margin-top: 20rpx;
+    font-size: 28rpx;
+    color: #000000;
+    text-align: center;
+}
