@@ -12,5 +12,6 @@ input{ line-height: normal;}
 .weui-label{ text-align: left;}
 .weui-cell{ position: static; padding: 15rpx 0; margin: 0 25rpx;}
 .weui-cell-bottom{ border-bottom: 1px solid #EFEFEF;}
-.weui-input-words{ margin-top: 30rpx; padding: 15rpx 0; background: #ffffff; border-radius: 5rpx;}
-.weui-input{ font-size: 30rpx;}
+.weui-input{ font-size: 30rpx; text-align: right; padding-right: 30rpx;}
+.weui-input-words{ margin-top: 30rpx; padding: 15rpx 25rpx; background: #ffffff; border-radius: 5rpx; text-align: left;}
+.weui-cell-unit{ text-align: left; width: 100rpx;}

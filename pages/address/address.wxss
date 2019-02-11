@@ -23,7 +23,7 @@
 .right{
     float: right;
     margin-right: 30rpx;
-    color: #b1b1b1;
+    color: #e1e1e1;
 }
 .export_text{
     padding-left: 30rpx;

@@ -1,6 +1,10 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="top"></view>
+  <view class="top">
+    <text class="top_title">MOAC</text>
+    <text class="top_num">20</text>
+    <text class="top_tips">（最少保留30个MOAC）</text>
+  </view>
   <view class="header">
     <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -9,14 +13,14 @@
     </block> -->
     <!-- <image src = ""></image> -->
     <view>
-      <navigator url="../sendFu/sendFu">
+      <navigator hover-class="none" url="../sendFu/sendFu">
         <image src="../../img/hong32.png"></image>
         <text class="homeText" decode="{{true}}">发福包</text>
       </navigator>
     </view>
     <view class="head_line"></view>
     <view>
-      <navigator url="../transfer/transfer">
+      <navigator hover-class="none" url="../transfer/transfer">
         <image src="../../img/transfer32.png"></image>
         <text class="homeText" decode="{{true}}">提取</text>
       </navigator>

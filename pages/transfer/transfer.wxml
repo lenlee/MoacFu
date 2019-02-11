@@ -1,17 +1,19 @@
 <view class='swiper_con'>
-      <view class="section">
-          <view class="label">接收方：</view>
-          <input name="input" placeholder="输入地址" />
-      </view>
     <view class="section">
-          <view class="label">金额：</view>
-          <input name="input" placeholder="输入金额" />
+        <view class="label">接收方：</view>
+        <input name="input" placeholder-class="placeholder" placeholder="输入提取地址" />
+    </view>
+    <view class="line">
+        <text></text>
     </view>
     <view class="section">
-          <view class="label">福包密码：</view>
-          <input name="input" placeholder="输入密码" />
+        <view class="label">金额：</view>
+        <input name="input" placeholder-class="placeholder" placeholder="输入提取金额" />
     </view>
-        <button class="weui-btn" type="warn">发送</button>
-
-    
+    <text class="transfer_tips">可提取 -10.00 MOAC</text>
+    <view class="section">
+        <view class="label">福包密码：</view>
+        <input name="input" placeholder-class="placeholder" placeholder="输入福包密码" />
+    </view>
+    <button class="weui-btn" type="warn">确定</button>
 </view>

@@ -1,21 +1,10 @@
-page{
-    padding-top: 20rpx;
+.swiper_con{
+    padding: 20rpx;
 }
 .section{
     background: #ffffff;
     height: 50rpx;
     padding: 25rpx 30rpx;
-    border-bottom: 1px solid #EFEFEF;
-}
-section::after{
-    float: none;
-    clear: both;
-}
-.label{
-    width: 200rpx;
-    float: left;
-    text-align: left;
-    font-size: 30rpx;
 }
 .section input{
     float: left;
@@ -23,6 +12,29 @@ section::after{
     padding-left: 15rpx;
     font-size: 30rpx;
 }
+.label{
+    width: 180rpx;
+    float: left;
+    text-align: left;
+    font-size: 30rpx;
+}
+.line{
+    height: 2rpx;
+    background: #ffffff;
+}
+.line text{
+    width: 90%;
+    height: 2rpx;
+    background: #efefef;
+    margin: 0 auto;
+    display: block;
+}
+.transfer_tips{
+    color: #aab2bd;
+    font-size: 26rpx;
+    padding: 18rpx 0;
+    display: block;
+}
 .weui-btn{
-    margin: 80rpx 20rpx 0;
+    margin-top: 60rpx;
 }
